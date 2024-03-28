@@ -1,7 +1,8 @@
 import React from 'react';
-import './index.css';
+import './homePage.css';
+import Logo from './logo.js';
 
-export default function Main() {
+export default function HomePage() {
   return (
     <div className='main-container'>
       <div className='frame'>
@@ -11,9 +12,7 @@ export default function Main() {
       </div>
       <div className='frame-3'>
         <div className='frame-4'>
-          <div className='frame-5'>
-            <div className='removebg-preview' />
-          </div>
+         <Logo />
           <div className='frame-6'>
             <span className='gpt-chat-bot'>
               GPT Chat Bot is your AI-powered copilot for the web

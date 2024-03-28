@@ -1,0 +1,22 @@
+.frame-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  height: 200px;
+  z-index: 6;
+}
+.removebg-preview {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 200px;
+  min-height: 0;
+  /* background: url(../assets/images/gptLogo.png) no-repeat center; */
+  background-size: cover;
+  z-index: 7;
+}

@@ -101,29 +101,6 @@ button {
   height: 262px;
   z-index: 5;
 }
-.frame-5 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  align-self: stretch;
-  flex-wrap: nowrap;
-  flex-shrink: 0;
-  gap: 10px;
-  position: relative;
-  height: 200px;
-  z-index: 6;
-}
-.removebg-preview {
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  width: 200px;
-  min-height: 0;
-  background: url(../assets/images/8bc89d9fdd128eb1a40fec8d64ca6654d6292bb7.png)
-    no-repeat center;
-  background-size: cover;
-  z-index: 7;
-}
 .frame-6 {
   display: flex;
   align-items: center;
