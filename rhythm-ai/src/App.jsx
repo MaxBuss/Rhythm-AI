@@ -1,10 +1,8 @@
 import React from 'react';
-import Page from './components/homePage.jsx';
+import HomePage from './components/homePage.jsx';
 
 export default function App() {
   return (
-    <div>
-      <Page />
-    </div>
+      <HomePage />
   );
 }

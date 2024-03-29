@@ -3,9 +3,8 @@ import './logo.css';
 
 export default function Logo() {
     return (
-        <div className='frame-5'>
-            <img src={require('../assets/images/gptLogo.png')} alt='' />
-            {/* <div className='removebg-preview' /> */}
+        <div className='logo'>
+            <img src={require('../assets/images/rythm ai logo transparent.png')} alt='' />
         </div>
     )
 }
