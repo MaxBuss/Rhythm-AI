@@ -5,10 +5,6 @@ import SuggestionCard from './suggestionCard.js';
 
 
 export default function Suggestions() {
-
-    useEffect(() => {
-        console.log(SuggestedQuestions[0].question);
-    }, [SuggestedQuestions]);
     return (
         // <div className="">
         //     <div className="frame-7">

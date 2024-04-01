@@ -3,10 +3,6 @@ import './suggestionCard.css';
 
 export default function SuggestionCard({ className, topic, question }) {
 
-    useEffect(() => {
-        console.log(question);
-    }, [question]);
-
     return (
         <>
             <div

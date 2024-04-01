@@ -7,6 +7,7 @@ export default function Ask({ className,
     setInputValue,
     makeOpenAIPost }) {
     const [inputCharCount, setInputCharCount] = React.useState(0);
+
     return (
         <div className='frame-27'>
             {/* <button className='frame-28'>
@@ -27,12 +28,12 @@ export default function Ask({ className,
                             setInputValue(event.target.value);
                             setInputCharCount(event.target.value.length);
                         }}
-                        onKeyDown={(event) => { event.key === "Enter" && setInputValue("") }}
+                        onKeyDown={(event) => { event.key === "Enter" && makeOpenAIPost(inputValue) && setInputValue("") }}
                     />
                     <div className='frame-2b'>
                         <span className='slash-zero-four-thousand'>{inputCharCount}/4000</span>
                         <div className='send'>
-                            <div className='vector' />
+                            <div className='vector' onClick={() => makeOpenAIPost(inputValue)} />
                         </div>
                     </div>
                 </div>
